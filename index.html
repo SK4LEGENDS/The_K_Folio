@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The K-Folio - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Kailash Selvarajan</h1>
+
+            <p class="title">RPA developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:kailashselvarajan@gmail.com"
+                  class="contact-link"
+                  >kailashselvarajan@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91-8939785032" class="contact-link"
+                  >+91-8939785032</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="Oct 31, 2004">Oct 31, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Velachery, Chennai</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/SK4LEGENDS" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="http://www.linkedin.com/in/kailashselvarajan"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/sk4.legends?igsh=NnJxZ2J4OWt2cDV2"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm an Automation Developer, Web Engineer, Prompt Engineer, and
+              Photographer from India, working across intelligent automation,
+              AI-driven interaction, modern web design, and visual storytelling.
+              I enjoy transforming complex workflows into seamless systems,
+              crafting intuitive AI prompts, building immersive web experiences,
+              and capturing nature’s serenity through my camera.
+            </p>
+
+            <p>
+              My job is to craft automation workflows, intelligent prompts, and
+              web solutions that are not only powerful and efficient but also
+              visually striking and user-centric. Beyond functionality, I bring
+              a creative edge—whether it's building user-friendly interfaces,
+              designing smart bots, or capturing the perfect frame through my
+              lens. My goal is to express your brand’s identity in the most
+              compelling way possible. I’ve architected automation bots,
+              designed digital experiences, and delivered artistic visuals for
+              both startups and well-known brands alike.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Service-icons/automation.png"
+                    alt="design icon"
+                    width="60"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UiPath Automation</h4>
+
+                  <p class="service-item-text">
+                    The most efficient and intelligent automation crafted with
+                    precision using UiPath at an expert level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Service-icons/fronetend.png"
+                    alt="Web development icon"
+                    width="55"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level leveraging AI tools to enginner them.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Service-icons/promt.png"
+                    alt="mobile app icon"
+                    width="60"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Prompt Engineering</h4>
+
+                  <p class="service-item-text">
+                    Cutting-edge AI interactions designed through expert-level
+                    prompt engineering for maximum performance and precision.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Service-icons/camera.png"
+                    alt="camera icon"
+                    width="60"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    Breathtaking moments of nature captured through a lens of
+                    serenity, emotion, and artistic precision.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+-->
+
+          - testimonials modal
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>hi</p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Certifications</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a
+                  href="https://credentials.uipath.com/00723884-7c34-4994-a8f4-3517fd235af5#acc.6B4yHkYU"
+                >
+                  <img
+                    src="./assets/images/certifications/automation explorer.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://credentials.uipath.com/63705d93-3c73-40e9-8a04-f0f7a7c2ae3d#acc.zWsHVvRM"
+                >
+                  <img
+                    src="./assets/images/certifications/Citizen.jpeg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://credentials.uipath.com/3a31f23a-0ee7-4551-a506-69ae42d8008a#acc.XJiRVCwn"
+                >
+                  <img
+                    src="./assets/images/certifications/Associate ICT Academy.jpeg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/certifications/mongodb developer toolkit.jpeg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/certifications/NPTEL.jpeg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  St. Joseph's Institute of Technology
+                </h4>
+
+                <span>2022 - 2026</span>
+
+                <p class="timeline-text">
+                  Currently persuming my B.E CSE degree with no histroy of
+                  arrears and CGPA of 7.8.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sri Chaitanya Techno School
+                </h4>
+
+                <span>2021 - 2022</span>
+
+                <p class="timeline-text">
+                  Finish my 12th with a score of 75% in Science group.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sri Chaitanya Techno School
+                </h4>
+
+                <span>2019 - 2020</span>
+
+                <p class="timeline-text">
+                  Finished my 10th with a score of 79%.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Student Support Specialist
+                </h4>
+
+                <span>2024 — Present</span>
+
+                <p class="timeline-text">
+                  I have been promoted as the Student Support Specialist at
+                  PEP-PRA. In this role, I am dedicated to providing continuous
+                  support, guidance, and mentorship to students, helping them
+                  navigate their academic journey with confidence. I act as a
+                  primary point of contact for addressing student queries,
+                  assist in academic and career counseling, and work closely
+                  with faculty and administrative teams to ensure a seamless
+                  learning experience. Additionally, I am responsible for
+                  organizing student engagement activities that promote growth,
+                  collaboration, and overall well-being. Through this position,
+                  I aim to foster a supportive environment that empowers
+                  students to achieve their goals and make the most of their
+                  time at PEP-PRA.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">IEEE Student Treasurer</h4>
+
+                <span>2023-Present</span>
+
+                <p class="timeline-text">
+                  I am currently working as the Student Treasurer for the IEEE
+                  Computer Society at St. Joseph's Institute of Technology. In
+                  this role, I am responsible for managing and overseeing the
+                  financial activities of the society, ensuring transparency,
+                  accuracy, and proper allocation of funds for various student
+                  initiatives and events. I work closely with the executive
+                  committee to plan budgets, maintain financial records, and
+                  support the successful execution of workshops, seminars, and
+                  technical activities. Through this position, I have developed
+                  strong skills in financial management, strategic planning, and
+                  organizational leadership, contributing actively to the growth
+                  and success of the IEEE Computer Society chapter in our
+                  institution.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Production Engineer</h4>
+
+                <span>2022-Present</span>
+
+                <p class="timeline-text">
+                  As a Production Engineer – Media Team Lead, I am responsible
+                  for leading a team of photographers and videographers who
+                  manage the complete production operations for college events
+                  and activities. I oversee the end-to-end process, including
+                  planning, resource coordination, on-site coverage, and
+                  post-production, ensuring that all media outputs meet the
+                  highest standards of quality and creativity. My role involves
+                  task delegation, technical supervision, and maintaining a
+                  streamlined workflow to deliver professional coverage that
+                  captures the essence of each event. Through strong leadership
+                  and a focus on excellence, I ensure the production team
+                  operates efficiently and effectively across all assignments.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UiPath Automation</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML, CSS</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Prompt Engineering</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Photography</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+  - #PORTFOLIO
+-->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>UiPath Automation</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Prompt Engineering</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Photography</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>UiPath Automation</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Prompt Engineering</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Photography</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- UiPath Automation -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="UiPath Automation"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Uipath projects/Migration.jpeg"
+                      alt="UiPath Automation"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Filtration Project</h3>
+                  <p class="project-category">UiPath Automation</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="UiPath Automation"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Uipath projects/Migration.jpeg"
+                      alt="UiPath Automation"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Banking Ops</h3>
+                  <p class="project-category">UiPath Automation</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="UiPath Automation"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Uipath projects/Migration.jpeg"
+                      alt="UiPath Automation"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Migration Project</h3>
+                  <p class="project-category">UiPath Automation</p>
+                </a>
+              </li>
+
+              <!-- Web Development -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Web Development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Frontend Projects/snake.png"
+                      alt="Snake Game"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Snake Game</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Web Development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Frontend Projects/2049.png"
+                      alt="Snake Game"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">2049</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Web Development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Frontend Projects/tic tac toe.png"
+                      alt="Snake Game"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Tic Tac Toe</h3>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <!-- Prompt Engineering 
+      <li class="project-item active" data-filter-item data-category="Prompt Engineering">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/Frontend Projects/download.jpeg" alt="Snake Game" loading="lazy">
+          </figure>
+          <h3 class="project-title">Snake Game</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li> -->
+
+              <!-- Photography -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Photography"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Photography/bird.png"
+                      alt="MetaSpark"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Bird</h3>
+                  <p class="project-category">Photography</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Photography"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Photography/fish.jpg"
+                      alt="MetaSpark"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Finding Nemo</h3>
+                  <p class="project-category">Photography</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Photography"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Photography/IMG_20241011_180956-EFFECTS.jpg"
+                      alt="MetaSpark"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Sky</h3>
+                  <p class="project-category">Photography</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/kailashselvarajan_hackabot2024-innovation-teamwork-activity-7293980173509476353-0-Xq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/Hack-a-bot.jpeg"
+                      alt="Hack-a-bot 24"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Hackathon</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feburary 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Hack-a-bot 2024</h3>
+
+                    <p class="blog-text">
+                      Secured 2nd place in Hack-a-bot 24 which was conducted by
+                      UiPath.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/kailashselvarajan_today-i-had-the-privilege-of-leading-the-activity-7235569598295646208-G2H-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQs"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/SDC Summit.jpeg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Event</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">August 30, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">SDC Summit</h3>
+
+                    <p class="blog-text">
+                      Coordinated SDC Summit in St. Joseph's College of
+                      Engineering.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/pugalesan-i_uipathcommunity-agenticautomation-meetupvibes-ugcPost-7314289163069988864-98Xe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/UiPath Community Day.jpeg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Community Day</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 5, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Attended the UiPath Community Day, Chennai Chapter's
+                      Agentic AUtomation session.
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/vishal-ponram-b20a3b255_rpa-ai-ugcPost-7187744494937636864-frzf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/UiPath com day.jpeg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Community Day</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 21, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UiPath Community Day in HCL, Chennai One
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/rpa-society_congratulations-rpa-hackathon-ugcPost-7193823676528562176-LSCo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/workshop.jpeg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Workshop</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 13, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">RPA Workshop</h3>
+
+                    <p class="blog-text">
+                      Secured 1st place in hackathon conducted by PRP RPA in St.
+                      Joseph's Institute of technology.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.linkedin.com/posts/kailashselvarajan_volunteering-gratitude-leadership-activity-7293976249473843200-4F67?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EA6EBjJw7NpRNO1EcwBKSeacE7VPP9tQ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Blogs/SIH.jpeg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Volunteer</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feburary 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">SIH</h3>
+
+                    <p class="blog-text">
+                      Awareded as the best volunteer for volunteering SIH 24 in
+                      St. Joseph's Institute of Technology.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.678210700885!2d80.21538821482157!3d12.979119190856606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ddf445aec5b%3A0xb3b07f8e1aaf57e5!2sVelachery%2C%20Chennai%2C%20Tamil%20Nadu%20600115%2C%20India!5e0!3m2!1sen!2sin!4v1715594100000!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
